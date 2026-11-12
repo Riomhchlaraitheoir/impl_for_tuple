@@ -1,0 +1,13 @@
+[workspace]
+members = ["internal"]
+
+[package]
+name = "impl_for_tuple"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+internal = { path = "internal" }

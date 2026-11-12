@@ -1,0 +1,10 @@
+[package]
+name = "internal"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+proc-macro2 = { version = "1.0.107", features = ["span-locations"] }
+syn = { version = "3.0.9", features = ["full", "extra-traits", "visit-mut"] }
+prettyplease = "0.3.0"
+difference = "2.0.0"
